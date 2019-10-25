@@ -1,0 +1,3 @@
+me: Actor
+  location = orangeRoom
+;

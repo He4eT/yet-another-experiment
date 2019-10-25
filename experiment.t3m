@@ -1,0 +1,11 @@
+-D LANGUAGE=en_us
+-D MESSAGESTYLE=neu
+-Fy obj -Fo obj
+
+-o experiment.t3
+
+-I lib/include
+-lib lib/system
+-lib lib/adv3/adv3
+
+-source experiment
