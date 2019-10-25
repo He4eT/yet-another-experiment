@@ -19,19 +19,19 @@ versionInfo: GameID
 
 gameMain: GameMainDef
   initialPlayerChar = me
+  showIntro () {
 
-  experimentNumber = 0
-  dayNumber = 21
+    experimentNumber = rand(100);
+    dayNumber = rand(1000);
 
-  showIntro () {"
-    <.p>
+    "<.p>
     <q>Experiment <<experimentNumber>>,
     day number <<dayNumber>>,</q>
       a cold mechanical voice suddenly interrupts
       your restless sleep.
     <q>Have a nice day!</q>
-    <.p>
-  ";}
+    <.p>";
+  }
   showGoodbye () {"
     <.p>Game over<.p>
   ";}
