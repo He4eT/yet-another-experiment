@@ -1,4 +1,4 @@
-orangeRoom: Room
+orangeRoom: DarkRoom
   'Orange room'
   " You're standing in the large room.
     <br>The walls, floors and ceiling are
@@ -14,6 +14,34 @@ orangeRoom: Room
     and a desk against the east wall."
 ;
 
++ OnOffControl, Fixture
+  'small luminous switch/light/lights'
+  'small luminous switch'
+  "It's a small luminous switch on the wall"
+
+  isListed = true
+  brightness = 1
+
+  dobjFor (TurnOn) {
+    preCond = inherited + actorStanding
+    action () { inherited(); }
+  }
+  makeOn (val) {
+    inherited(val);
+    location.brightness = val ? 3 : 0;
+
+    val
+      ? "You hear slight hum of neon lamps, followed with bright light."
+      : "Darkness filled the room.";
+  }
+;
+
++ Decoration
+  'neon lamp/lamps'
+  'neon lamps'
+  "Ordinary neon lamps emit cold light."
+;
+
 + Decoration
   'orange digits/number'
   'orange number'
@@ -21,7 +49,7 @@ orangeRoom: Room
     without additional explanation."
 ;
 
-+ bed: Bed, Heavy
++ orangeBed: Bed, Heavy
   'ascetic bed'
   'ascetic bed'
   "It has a plastic frame and an unsprung mattress."
