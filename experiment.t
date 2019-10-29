@@ -19,6 +19,10 @@ versionInfo: GameID
 
 gameMain: GameMainDef
   initialPlayerChar = me
+
+  experimentNumber = nil
+  dayNumber = nil
+
   showIntro () {
 
     experimentNumber = rand(100);
