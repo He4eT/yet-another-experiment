@@ -12,7 +12,19 @@ orangeRoom: DarkRoom
     The room contains
     an ascetic bed
     and a desk against the east wall."
+  south = orangeDoor
 ;
+
+/* Doors */
+
++ orangeDoor:
+  Door
+  'white sliding door'
+  'sliding door'
+  "White sliding door in south wall.<br>"
+  isListed = true;
+
+/* Lights */
 
 + OnOffControl, Fixture
   'small luminous switch/light/lights'
@@ -29,6 +41,7 @@ orangeRoom: DarkRoom
   makeOn (val) {
     inherited(val);
     location.brightness = val ? 3 : 0;
+    isListed = val ? nil : true;
 
     val
       ? "You hear slight hum of neon lamps, followed with bright light."
@@ -41,6 +54,8 @@ orangeRoom: DarkRoom
   'neon lamps'
   "Ordinary neon lamps emit cold light."
 ;
+
+/* Content */
 
 + Decoration
   'orange digits/number'
