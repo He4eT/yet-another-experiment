@@ -25,7 +25,7 @@ gameMain: GameMainDef
 
   showIntro () {
 
-    experimentNumber = rand(100);
+    experimentNumber = 10 + rand(100);
     dayNumber = rand(1000);
 
     "<.p>

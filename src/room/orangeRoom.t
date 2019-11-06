@@ -17,8 +17,7 @@ orangeRoom: DarkRoom
 
 /* Doors */
 
-+ orangeDoor:
-  Door
++ orangeDoor: Door, AutoClosingDoor
   'white sliding door'
   'sliding door'
   "White sliding door in south wall.<br>"
