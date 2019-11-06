@@ -1,6 +1,6 @@
 orangeRoom: DarkRoom
-  'Orange room'
-  " You're standing in the large room.
+  'Living unit'
+  " You're standing in the small room.
     <br>The walls, floors and ceiling are
     completely covered with white plastic panels.
     <.p>
@@ -11,8 +11,12 @@ orangeRoom: DarkRoom
     <.p>
     The room contains
     an ascetic bed
-    and a desk against the east wall."
+    and a desk against the east wall.
+    </p>
+    The bathroom is to the west,
+    the exit door leads to the south."
   south = orangeDoor
+  west = orangeBathroom
 ;
 
 /* Doors */
@@ -21,14 +25,14 @@ orangeRoom: DarkRoom
   'white sliding door'
   'sliding door'
   "White sliding door in south wall.<br>"
-  isListed = true;
+;
 
 /* Lights */
 
 + OnOffControl, Fixture
   'small luminous switch/light/lights'
   'small luminous switch'
-  "It's a small luminous switch on the wall"
+  "It's a small luminous switch on the wall."
 
   isListed = true
   brightness = 1
@@ -91,9 +95,9 @@ orangeRoom: DarkRoom
     +++ whiteCube: Thing
       'white cube'
       'white cube'
-      "Small glossy white cube";
+      "Small glossy white cube.";
 
     +++ blackCube: Thing
       'black cube'
       'black cube'
-      "Small glossy black cube";
+      "Small glossy black cube.";

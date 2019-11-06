@@ -1,5 +1,5 @@
 yellowRoom: Room
-  'Yellow room'
+  'Hallway'
   " This is another room which every surface
     covered with matte white panels.
     <.p>
