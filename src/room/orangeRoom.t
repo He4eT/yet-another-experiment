@@ -31,7 +31,7 @@ orangeRoom: DarkRoom
 /* Lights */
 
 + RoomPartItem, OnOffControl, Fixture
-  'small luminous switch/light/lights'
+  '(small) luminous switch/light*lights'
   'small luminous switch'
   "It's a small luminous switch on the wall."
   specialNominalRoomPartLocation = defaultSouthWall
@@ -55,7 +55,7 @@ orangeRoom: DarkRoom
 ;
 
 + Decoration
-  'neon lamp/lamps'
+  'neon lamp*lamps'
   'neon lamps'
   "Ordinary neon lamps emit cold light."
 ;
@@ -63,7 +63,7 @@ orangeRoom: DarkRoom
 /* Content */
 
 + RoomPartItem, Decoration
-  'orange digits/number'
+  'orange digits*digits/number*numbers'
   'orange number'
   " Orange, huge and neat digits
     without additional explanation."
@@ -84,7 +84,7 @@ orangeRoom: DarkRoom
 ;
 
   ++ Decoration
-    'letters/label/mark/marks'
+    'letters/label/mark*marks'
     'some scratched letters'
     "You can't make out the inscription."
   ;
