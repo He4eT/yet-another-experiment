@@ -45,5 +45,6 @@ gameMain: GameMainDef
 #include "src/room/orangeBathroom.t"
 
 #include "src/room/yellowRoom.t"
+#include "src/item/advertisingDisplay.t"
 
 #include "src/actor/pc.t"
