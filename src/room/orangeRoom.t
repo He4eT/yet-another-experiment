@@ -21,18 +21,20 @@ orangeRoom: DarkRoom
 
 /* Doors */
 
-+ orangeDoor: Door, AutoClosingDoor
++ orangeDoor: RoomPartItem, Door, AutoClosingDoor
   'white sliding door'
   'sliding door'
   "White sliding door in south wall.<br>"
+  specialNominalRoomPartLocation = defaultSouthWall
 ;
 
 /* Lights */
 
-+ OnOffControl, Fixture
++ RoomPartItem, OnOffControl, Fixture
   'small luminous switch/light/lights'
   'small luminous switch'
   "It's a small luminous switch on the wall."
+  specialNominalRoomPartLocation = defaultSouthWall
 
   isListed = true
   brightness = 1
@@ -60,11 +62,12 @@ orangeRoom: DarkRoom
 
 /* Content */
 
-+ Decoration
++ RoomPartItem, Decoration
   'orange digits/number'
   'orange number'
   " Orange, huge and neat digits
     without additional explanation."
+  specialNominalRoomPartLocation = defaultNorthWall
 ;
 
 + orangeBed: Bed, Heavy
