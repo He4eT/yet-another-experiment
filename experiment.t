@@ -41,6 +41,8 @@ gameMain: GameMainDef
   ";}
 ;
 
+#include "src/item/whitePanels.t"
+
 #include "src/room/orangeRoom.t"
 #include "src/room/orangeBathroom.t"
 
