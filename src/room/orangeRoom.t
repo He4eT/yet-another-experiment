@@ -41,7 +41,6 @@ orangeRoom: DarkRoom
 
   dobjFor (TurnOn) {
     preCond = inherited + actorStanding
-    action () { inherited(); }
   }
   makeOn (val) {
     inherited(val);

@@ -47,4 +47,6 @@ gameMain: GameMainDef
 #include "src/room/yellowRoom.t"
 #include "src/item/advertisingDisplay.t"
 
+#include "src/room/cyanRoom.t"
+
 #include "src/actor/pc.t"
