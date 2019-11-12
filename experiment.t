@@ -51,4 +51,6 @@ gameMain: GameMainDef
 
 #include "src/room/cyanRoom.t"
 
+#include "src/room/pinkRoom.t"
+
 #include "src/actor/pc.t"
