@@ -25,7 +25,7 @@ cyanRoom: Room
   "}
 ;
 
-+ Decoration, Fixture
++ Decoration
   'central square area/outline'
   'square outline'
   " The central square area on the floor

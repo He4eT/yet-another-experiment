@@ -1,4 +1,4 @@
-advertisingDisplay: Decoration, Fixture
+advertisingDisplay: Decoration
   'bright lcd screen/display/monitor'
   'bright lcd display'
   " Huge and bright display mounted on the wall.

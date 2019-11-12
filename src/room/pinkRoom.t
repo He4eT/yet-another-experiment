@@ -5,7 +5,7 @@ pinkRoom: Room
   east = cyanRoom
 ;
 
-+ Decoration, Fixture, RoomPartItem
++ Decoration, RoomPartItem
   'keycard reader'
   'keycard reader'
   "Small security device without any visible indicators."

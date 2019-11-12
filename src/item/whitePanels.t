@@ -1,4 +1,4 @@
-+ whitePanels: MultiLoc, Decoration, Fixture
++ whitePanels: MultiLoc, Decoration
   '(wall) white matte panel*panels'
   'white panels'
   "The basis of the local interior."

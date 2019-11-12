@@ -6,19 +6,19 @@ orangeBathroom: Room
   east = orangeRoom
 ;
 
-+ Decoration, Fixture
++ Decoration
   'shower cabine'
   'shower cabine'
   "It's a minimalistic shower cabine."
 ;
 
-+ Decoration, Fixture
++ Decoration
   'toilet'
   'toilet'
   "An ordinary toilet."
 ;
 
-+ Decoration, Fixture
++ Decoration
   'faucet sink'
   'sink'
   "There's a water faucet and a small sink."
