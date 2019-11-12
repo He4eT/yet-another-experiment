@@ -50,6 +50,7 @@ gameMain: GameMainDef
 #include "src/item/advertisingDisplay.t"
 
 #include "src/room/cyanRoom.t"
+#include "src/item/tape.t"
 
 #include "src/room/pinkRoom.t"
 
