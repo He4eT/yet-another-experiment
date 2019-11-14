@@ -27,6 +27,7 @@ tapeWall: Thing, RoomPartItem
     }
   }
 
+  dobjFor (Doff) remapTo(Remove, self)
   dobjFor (Break) remapTo(Remove, self)
   dobjFor (Pull) remapTo(Remove, self)
 
