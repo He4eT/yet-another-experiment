@@ -1,0 +1,38 @@
+labCoat: Container
+  'bloody cloth'
+  'bloody cloth'
+  @dumpster
+  " The lab coat labeled <q>Dr. Smith</q>.
+    Aside from the bloodstains,
+    you can see some sloppy cuts obviously made in a hurry.
+    << labKey.location == labCoat
+      ? '<br>Something heavy is hidden inside one of the pockets. '
+      : ''>>"
+
+  firstLook = nil
+  initDesc = "
+    <<firstLook ? 'It\'s' : 'The lab coat'>>
+    covered in blood. <br>
+    You should take a closer look.
+    <<firstLook = nil>>"
+
+  dobjFor (Examine) {
+    action() {
+      if (!described) changeName();
+      inherited();
+    }
+  }
+
+  changeName () {
+    name = 'lab coat';
+    firstLook = true;
+    initializeVocabWith('cutted lab coat');
+    "The bloody cloth turns out to be a cutted lab coat.";
+  }
+;
+
++ labKey: Key, Hidden
+  'massive steel lab key*keys'
+  'massive key'
+  "Key"
+;

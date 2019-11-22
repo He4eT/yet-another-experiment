@@ -53,5 +53,6 @@ gameMain: GameMainDef
 #include "src/item/tape.t"
 
 #include "src/room/pinkRoom.t"
+#include "src/item/labCoat.t"
 
 #include "src/actor/pc.t"
