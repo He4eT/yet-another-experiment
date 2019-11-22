@@ -23,6 +23,10 @@ labCoat: Container
     }
   }
 
+  dobjFor (Search) {
+    preCond = [objHeld]
+  }
+
   changeName () {
     name = 'lab coat';
     firstLook = true;
