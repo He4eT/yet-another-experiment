@@ -13,9 +13,9 @@ pinkRoom: Room
 ;
 
 + Decoration
-  'label'
-  'label'
-  "Label says <q>CAUTION! Do Not Load Over Top of Container</q>."
+  'dumpster label'
+  'dumpster label'
+  "Label says <<dumpster.label>>."
 ;
 
 + dumpster: OpenableContainer
@@ -23,8 +23,10 @@ pinkRoom: Room
   'dumpster'
   " A large metal container. <br>
     The label says
-    <q>CAUTION! Do Not Load Over Top of Container</q>.
+    <<dumpster.label>>.
     <br>"
+
+  label = '<q>CAUTION! Do Not Load Over Top of Container</q>'
 ;
 
 
