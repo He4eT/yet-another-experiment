@@ -37,7 +37,8 @@ cyanRoom: Room
   'armored operating door*doors'
   'armored door'
   " Armored door marked <q>Operating room</q>
-    and a massive mechanical locking device with a keyhole.
+    and a massive mechanical locking device with a circle keyhole.
     <br>Next to the door is a sign <q>Restricted area</q>.<br>"
+  keyList = [ labKey ]
   specialNominalRoomPartLocation = defaultEastWall
 ;

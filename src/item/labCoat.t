@@ -2,7 +2,7 @@ labCoat: Container
   'bloody cloth'
   'bloody cloth'
   @dumpster
-  " The lab coat labeled <q>Dr. Smith</q>.
+  " The lab coat labeled <q>Dr. O'Neill</q>.
     Aside from the bloodstains,
     you can see some sloppy cuts obviously made in a hurry.
     << labKey.location == labCoat
@@ -24,7 +24,7 @@ labCoat: Container
   }
 
   dobjFor (Search) {
-    preCond = [objHeld]
+    preCond = [ objHeld ]
   }
 
   changeName () {
@@ -36,7 +36,7 @@ labCoat: Container
 ;
 
 + labKey: Key, Hidden
-  'massive steel lab key*keys'
-  'massive key'
-  "Key"
+  'long steel tubular lab key*keys'
+  'tubular key'
+  "Long tubular key made of steel."
 ;
