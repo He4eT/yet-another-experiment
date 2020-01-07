@@ -1,8 +1,24 @@
 pinkRoom: Room
   'Changing room'
-  "Empty room with keycard reader."
+  " An elevator vestibule with a row of lockers,
+    a dumpster and posters with safety rules."
 
   east = cyanRoom
+;
+
++ Decoration
+  'safety rule*rules/poster*posters'
+  'posters'
+  "<q><<rules.doScript()>></q>"
+
+  rules: ShuffledEventList {[
+    '1 day without <b>incident</b>.',
+    'Wear personal protective equipment necessary for the job.',
+    'Keep your work area clean.',
+    'Report all injuries.',
+    'Report any unsafe conditions.',
+    'Always use equipment/tools/machinery safely and properly.'
+  ]}
 ;
 
 + Decoration, RoomPartItem
@@ -27,8 +43,8 @@ pinkRoom: Room
     <br>"
 
   label = '<q>CAUTION! Do Not Load Over Top of Container</q>'
+  isListed = nil
 ;
-
 
 ++ Decoration
   'construction waste/bricks/fragments/remains'
