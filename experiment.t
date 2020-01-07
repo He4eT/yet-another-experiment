@@ -55,4 +55,6 @@ gameMain: GameMainDef
 #include "src/room/pinkRoom.t"
 #include "src/item/labCoat.t"
 
+#include "src/room/redRoom.t"
+
 #include "src/actor/pc.t"

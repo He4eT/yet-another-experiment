@@ -34,6 +34,7 @@ cyanRoom: Room
 ;
 
 + operatingRoomDoorOutside: LockableWithKey, Door, RoomPartItem
+  -> operatingRoomDoor
   'armored operating door*doors'
   'armored door'
   " Armored door marked <q>Operating room</q>
