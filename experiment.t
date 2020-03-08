@@ -56,5 +56,7 @@ gameMain: GameMainDef
 #include "src/item/labCoat.t"
 
 #include "src/room/redRoom.t"
+#include "src/item/dataCable.t"
+#include "src/actor/surgeryAssistant.t"
 
 #include "src/actor/pc.t"
