@@ -1,6 +1,6 @@
 labCoat: Container
-  'bloody cloth'
   'bloody cloth/pocket*pockets'
+  'bloody cloth'
   @dumpster
   " The lab coat labeled <q>Dr. O'Neill</q>.
     Aside from the bloodstains,
