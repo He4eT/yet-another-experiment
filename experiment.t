@@ -60,3 +60,5 @@ gameMain: GameMainDef
 #include "src/actor/surgeryAssistant.t"
 
 #include "src/actor/pc.t"
+
+#include "src/action/repair.t"
