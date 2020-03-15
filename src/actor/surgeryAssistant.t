@@ -16,3 +16,9 @@ surgeryAssistant: Person
     <br>You can see the message <q>Connection lost</q> on the indicator display."
   isInitState = true
 ;
+
+dataPort: PlugAttachable, Attachable, Fixture
+  'data port/outlet/socket'
+  'data port'
+  @redRoom
+;

@@ -1,6 +1,6 @@
 me: Actor
   'me/self'
-  location = orangeRoom
+  location = redRoom
   posture = lying
 ;
 
