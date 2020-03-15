@@ -1,8 +1,12 @@
 dataCable: PlugAttachable, Attachable, RoomPart
-  'data cable/wire/cord/jack/plug'
+  'data cable/wire/cord'
   'data cable'
   @redRoom
   "Thick data cable with damaged connector."
+
+  canAttachTo (obj) {
+    return !jack.isBroken && obj == dataPort;
+  }
 
   explainCannotAttachTo(obj) {
     obj != dataPort
@@ -12,13 +16,18 @@ dataCable: PlugAttachable, Attachable, RoomPart
         : "";
   }
 
-  canAttachTo(obj) {
-    return !jack.isBroken && obj == dataPort;
+  dobjFor (Repair) remapTo(Repair, jack)
+  dobjFor (RepairWith) remapTo(Repair, self)
+
+  dobjFor (AttachTo) {
+    action () {
+      "Data cable pluged in.";
+    }
   }
 ;
 
 + jack: Component
-  'connector'
+  'connector/jack'
   'connector'
   "<<jack.isBroken
     ? 'Broken connector.
@@ -27,8 +36,19 @@ dataCable: PlugAttachable, Attachable, RoomPart
     : 'Fixed connector.
       <br>The broken part is held carelessly.'
   >>"
+  isBroken = true
 
   dobjFor (AttachTo) remapTo(AttachTo, dataCable, IndirectObject)
 
-  isBroken = true;
+  dobjFor (Repair) {
+    verify() {
+      illogical('This connector can be fixed
+        with glue, duck tape or something similar.');
+    }
+  }
+  dobjFor (RepairWith) {
+    verify() {
+      illogical('Code here');
+    }
+  }
 ;
