@@ -13,7 +13,7 @@ modify Thing
   }
 ;
 
-DefineTAction(RepairWith);
+DefineTIAction(RepairWith);
 
 VerbRule(RepairWith)
   ('repair' | 'fix') dobjList 'with' singleIobj : RepairWithAction

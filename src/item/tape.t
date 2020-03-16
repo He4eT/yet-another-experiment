@@ -47,6 +47,8 @@ pieceOfTape: PresentLater, Thing
   @cyanRoom
   " Quite a long piece of safety tape.
     It can serve as a rope."
+
+  iobjFor(RepairWith) { verify() {} }
 ;
 
 uselessTape: PresentLater, Decoration

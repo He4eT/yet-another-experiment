@@ -6,4 +6,6 @@ dentalFloss: Thing
     used to remove food and dental plaque
     from between teeth in areas
     a toothbrush is unable to reach."
+
+  iobjFor(RepairWith) { verify() {} }
 ;

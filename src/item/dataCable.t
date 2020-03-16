@@ -48,7 +48,17 @@ dataCable: PlugAttachable, Attachable, RoomPart
   }
   dobjFor (RepairWith) {
     verify() {
-      illogical('Code here');
+      if (gIobj not in (
+        dentalFloss,
+        pieceOfTape
+      )) {
+        illogical('
+          {That iobj/he} do{es}n\'t look useful
+          for fixing the connector. ');
+      }
+    }
+    action() {
+      "Wow!";
     }
   }
 ;
