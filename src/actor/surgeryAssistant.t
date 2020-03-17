@@ -4,7 +4,9 @@ surgeryAssistant: Person
   @redRoom
   " The torso of cybernetic assistant surgeon
     is wired to the ceiling. "
-;
+
+  iobjFor (AttachTo) remapTo(AttachTo, DirectObject, dataPort)
+ ;
 
 + dataPort: PlugAttachable, Attachable, Fixture
   'data port/outlet/socket'
