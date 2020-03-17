@@ -30,10 +30,10 @@ cyanRoom: Room
   'square outline'
   " The central square area on the floor
     looks like some kind of markup.
-    <br>Its purpose is unclear to you."
+    <br>Its purpose is unclear to you. "
 ;
 
-+ operatingRoomDoorOutside: LockableWithKey, Door, RoomPartItem
++ operatingRoomDoorOutside: LockableWithKey, Door
   -> operatingRoomDoor
   'armored operating door*doors'
   'armored door'
