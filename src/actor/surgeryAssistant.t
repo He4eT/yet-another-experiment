@@ -78,3 +78,12 @@ surgeryAssistant: Person
   ' <q>It\'s me again.</q> you tell.\b
     <q>How can I help you?</q> he answers.'
 ];
+
+tCrew: Topic 'crew/team';
+++ AskTopic [tCrew]
+  " <q>The team on this floor consists of three people.\b
+    The first is Dr. O'neill, the surgeon.
+    <br>The second is Alice Dash, the technician is
+    responsible for all the equipment on this floor.
+    <br>The third is Mark Hopper, the orderly and janitor.</q>"
+;
