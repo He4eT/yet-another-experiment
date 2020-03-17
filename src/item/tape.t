@@ -41,14 +41,12 @@ tapeWall: Thing, RoomPartItem
   }
 ;
 
-pieceOfTape: PresentLater, Thing
+pieceOfTape: PresentLater, Bandage
   'long safety tape/strip/piece'
   'long strip of tape'
   @cyanRoom
   " Quite a long piece of safety tape.
     It can serve as a rope."
-
-  iobjFor(RepairWith) { verify() {} }
 ;
 
 uselessTape: PresentLater, Decoration

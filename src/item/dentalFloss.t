@@ -1,4 +1,4 @@
-dentalFloss: Thing
+dentalFloss: Bandage
   'dental floss'
   'dental floss'
   @me
@@ -6,6 +6,4 @@ dentalFloss: Thing
     used to remove food and dental plaque
     from between teeth in areas
     a toothbrush is unable to reach."
-
-  iobjFor(RepairWith) { verify() {} }
 ;

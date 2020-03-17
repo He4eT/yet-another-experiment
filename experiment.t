@@ -60,6 +60,7 @@ gameMain: GameMainDef
 #include "src/item/dataCable.t"
 #include "src/actor/surgeryAssistant.t"
 
-#include "src/actor/pc.t"
-
 #include "src/action/repair.t"
+#include "src/item/_bandage.t"
+
+#include "src/actor/pc.t"
