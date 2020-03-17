@@ -5,6 +5,7 @@ surgeryAssistant: Person
   " The torso of cybernetic assistant surgeon
     is wired to the ceiling. "
 
+  isHim = true
   iobjFor (AttachTo) remapTo(AttachTo, DirectObject, dataPort)
  ;
 
@@ -40,8 +41,22 @@ surgeryAssistant: Person
     the bulky arms slowly sway. "
 ;
 
-+ DefaultAnyTopic, ShuffledEventList [
+++ DefaultAnyTopic, ShuffledEventList [
   '<q>You don\'t have permission.</q>',
-  '<q>Access Denied</q>',
-  '<q>The request was rejected for security reasons</q>'
+  '<q>Access Denied.</q>',
+  '<q>The request was rejected for security reasons.</q>'
 ];
+
+++ HelloTopic, ShuffledEventList
+  [
+     '<q>Hello there,</q> you say.\b
+      <q>Assistant surgeon, model \'oN11ug7\'.
+      How can I help you?</q> the robot looks at you.'
+  ]
+  [
+     '<q>Er...</q> you start.\b
+      <q>How can I help you?</q> he asks. ',
+      '<q>It\'s me again.</q> you tell.\b
+      <q>How can I help you?</q> he answers.'
+  ]
+;
