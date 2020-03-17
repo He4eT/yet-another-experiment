@@ -31,7 +31,7 @@ surgeryAssistant: Person
   isInitState = true
 ;
 
-+ robotOnline: ConversationReadyState
++ robotOnline: InConversationState
   specialDesc = "
     The surgical assistant examines the room. "
   stateDesc = "
@@ -39,3 +39,9 @@ surgeryAssistant: Person
     various servos, units and cables make distinctive sounds,
     the bulky arms slowly sway. "
 ;
+
++ DefaultAnyTopic, ShuffledEventList [
+  '<q>You don\'t have permission.</q>',
+  '<q>Access Denied</q>',
+  '<q>The request was rejected for security reasons</q>'
+];
