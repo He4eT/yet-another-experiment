@@ -12,9 +12,9 @@ dataCable: PlugAttachable, Attachable, RoomPart
 
   explainCannotAttachTo(obj) {
     obj != dataPort
-      ? "This data cable can only be connected to the data port."
+      ? "This data cable can only be connected to the data port. "
       : jack.isBroken
-        ? "The connector on data cable is broken."
+        ? "The connector on data cable is broken. "
         : "";
   }
 
@@ -37,10 +37,10 @@ dataCable: PlugAttachable, Attachable, RoomPart
   "<<jack.isBroken
     ? 'Broken connector.
       <br>One of the components of its body should be
-      fixed with glue, duct tape or something similar.'
+      fixed with glue, duct tape or something similar'
     : 'Fixed connector.
-      <br>The broken part is held carelessly.'
-  >>"
+      <br>The broken part is held carelessly'
+  >>. "
   isBroken = true
 
   dobjFor (AttachTo) remapTo(AttachTo, dataCable, IndirectObject)
@@ -50,16 +50,16 @@ dataCable: PlugAttachable, Attachable, RoomPart
       if (jack.isBroken) {
         illogical('
           This connector can be fixed
-          with glue, duck tape or something similar.');
+          with glue, duck tape or something similar. ');
       } else {
-        illogical('The connector is already fixed.');
+        illogical('The connector is already fixed. ');
       }
     }
   }
   dobjFor (RepairWith) {
     verify() {
       if (!jack.isBroken) {
-        illogical('The connector is already fixed.');
+        illogical('The connector is already fixed. ');
       }
       if (gIobj not in (
         dentalFloss,
@@ -73,7 +73,7 @@ dataCable: PlugAttachable, Attachable, RoomPart
     action() {
       gIobj.moveInto(nil);
       jack.isBroken = nil;
-      "The connector is now ugly, but serviceable.";
+      "The connector is now ugly, but serviceable. ";
     }
   }
 ;

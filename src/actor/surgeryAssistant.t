@@ -6,9 +6,15 @@ surgeryAssistant: Person
     is wired to the ceiling. "
 ;
 
++ dataPort: PlugAttachable, Attachable, Fixture
+  'data port/outlet/socket'
+  'data port'
+  "Industry standard port for automated assistants. "
+;
+
 + HermitActorState
   specialDesc = "
-    Ttttest"
+    There's a surgical assistant in the corner of the room. "
   stateDesc = "
     <br>The mechanism shows no signs of life
     and indicators show the missing network connection.
@@ -25,16 +31,9 @@ surgeryAssistant: Person
 
 + robotOnline: ConversationReadyState
   specialDesc = "
-    Robot ready to talk. "
+    The surgical assistant examines the room. "
   stateDesc = "
     <br>Cameras are scanning the room.
     various servos, units and cables make distinctive sounds,
     the bulky arms slowly sway. "
-;
-
-dataPort: PlugAttachable, Attachable, Fixture
-  'data port/outlet/socket'
-  'data port'
-  @redRoom
-  "Industry standard connector for automated assistants. "
 ;
