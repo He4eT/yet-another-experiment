@@ -42,9 +42,17 @@ surgeryAssistant: Person
 ;
 
 ++ DefaultAnyTopic, ShuffledEventList [
-  '<q>You don\'t have permission.</q>',
+  'The assistant ignores you.',
+  'The assistant doesn\'t respond.',
+  'The robot shows no interest.'
+];
+
+++ DefaultAskTellTopic, ShuffledEventList [
+  '<q>Bleep! bloop!</q>',
+  '<q>I can\'t answer that.</q>',
+  '<q>You don\'t have required permission.</q>',
   '<q>Access Denied.</q>',
-  '<q>The request was rejected for security reasons.</q>'
+  '<q>This request was rejected for security reasons.</q>'
 ];
 
 ++ HelloTopic, ShuffledEventList
