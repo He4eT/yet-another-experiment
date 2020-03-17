@@ -15,6 +15,19 @@ surgeryAssistant: Person
   "Industry standard port for automated assistants. "
 ;
 
++ Decoration
+  'indicator display'
+  'indicator display'
+  " You can see the message
+    <q>Connection lost</q> on the indicator display. "
+;
+
++ Decoration
+  'servos/units/arms/hands'
+  'assistant details'
+  "Parts of this mechanism look very technologically advanced. "
+;
+
 + HermitActorState
   specialDesc = "
     There's a surgical assistant in the corner of the room. "
@@ -55,16 +68,13 @@ surgeryAssistant: Person
   '<q>This request was rejected for security reasons.</q>'
 ];
 
-++ HelloTopic, ShuffledEventList
-  [
-     '<q>Hello there,</q> you say.\b
-      <q>Assistant surgeon, model \'oN11ug7\'.
-      How can I help you?</q> the robot looks at you.'
-  ]
-  [
-     '<q>Er...</q> you start.\b
-      <q>How can I help you?</q> he asks. ',
-      '<q>It\'s me again.</q> you tell.\b
-      <q>How can I help you?</q> he answers.'
-  ]
-;
+++ HelloTopic, ShuffledEventList [
+  ' <q>Hello there,</q> you say.\b
+    <q>Assistant surgeon, model \'oN11ug7\'.
+    How can I help you?</q> the robot looks at you.'
+][
+  ' <q>Er...</q> you start.\b
+    <q>How can I help you?</q> he asks. ',
+  ' <q>It\'s me again.</q> you tell.\b
+    <q>How can I help you?</q> he answers.'
+];
