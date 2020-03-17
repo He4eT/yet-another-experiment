@@ -42,12 +42,20 @@ dataCable: PlugAttachable, Attachable, RoomPart
 
   dobjFor (Repair) {
     verify() {
-      illogical('This connector can be fixed
-        with glue, duck tape or something similar.');
+      if (jack.isBroken) {
+        illogical('
+          This connector can be fixed
+          with glue, duck tape or something similar.');
+      } else {
+        illogical('The connector is already fixed.');
+      }
     }
   }
   dobjFor (RepairWith) {
     verify() {
+      if (!jack.isBroken) {
+        illogical('The connector is already fixed.');
+      }
       if (gIobj not in (
         dentalFloss,
         pieceOfTape
@@ -58,7 +66,9 @@ dataCable: PlugAttachable, Attachable, RoomPart
       }
     }
     action() {
-      "Wow!";
+      gIobj.moveInto(nil);
+      jack.isBroken = nil;
+      "The connector is now ugly, but serviceable.";
     }
   }
 ;
