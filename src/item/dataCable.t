@@ -2,7 +2,9 @@ dataCable: PlugAttachable, Attachable, RoomPart
   'data cable/wire/cord'
   'data cable'
   @redRoom
-  "Thick data cable with damaged connector."
+  " Thick data cable with
+    <<jack.isBroken ? 'damaged' : 'ugly'>>
+    connector. "
 
   canAttachTo (obj) {
     return !jack.isBroken && obj == dataPort;
@@ -21,7 +23,10 @@ dataCable: PlugAttachable, Attachable, RoomPart
 
   dobjFor (AttachTo) {
     action () {
-      "Data cable pluged in.";
+      surgeryAssistant.setCurState(robotOnline);
+      " Data cable pluged in.
+        <br>There were service sounds and
+        the surgical assistant began to show signs of life. ";
     }
   }
 ;
