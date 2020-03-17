@@ -3,7 +3,7 @@ tapeWall: Thing, RoomPartItem
   'safety tape'
   " Many layers of strips of
     two-tone safety tape obscure the doorway.
-    <br>Looks like the black and yellow wall."
+    <br>Looks like the black and yellow wall. "
 
   location = cyanRoom
   specialNominalRoomPartLocation = defaultWestWall
@@ -14,7 +14,7 @@ tapeWall: Thing, RoomPartItem
   dobjFor (Remove) {
     action () {
       " After a while, you clear the doorway
-        and make a mess on the floor.";
+        and make a mess on the floor. ";
 
       isRagged = true;
 
@@ -34,9 +34,8 @@ tapeWall: Thing, RoomPartItem
   dobjFor (Take) {
     action () {
       tryImplicitAction(Remove, self);
-
-      "You take one strip.";
       pieceOfTape.moveInto(me);
+      "You take one strip. ";
     }
   }
 ;
@@ -46,7 +45,7 @@ pieceOfTape: PresentLater, Bandage
   'long strip of tape'
   @cyanRoom
   " Quite a long piece of safety tape.
-    It can serve as a rope."
+    <br>It can serve as a rope. "
 ;
 
 uselessTape: PresentLater, Decoration
@@ -54,6 +53,6 @@ uselessTape: PresentLater, Decoration
   'useless mess'
   @cyanRoom
   " Small pieces of black and yellow tape,
-    stuck together and crumpled."
+    stuck together and crumpled. "
   isListed = true
 ;

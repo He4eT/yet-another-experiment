@@ -2,11 +2,10 @@ yellowRoom: Room
   'Hallway'
   " This is another room which every surface
     covered with matte white panels.
-    <.p>
-    A bright screen on the wall attracts your attention.
+    <br>A bright screen on the wall attracts your attention.
     <.p>
     There are three doors in the north wall
-    and a wide doorway leading south."
+    and a wide doorway leading south. "
 
   south = cyanRoom
 

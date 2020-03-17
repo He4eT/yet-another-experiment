@@ -24,7 +24,7 @@ orangeBathroom: Room
   "There's a water faucet and a small sink."
 ;
 
-+ OpenableContainer, Fixture
++ bathroomLocker: OpenableContainer, Fixture
   'mirror/locker/door'
   'locker with mirror door'
   " <<isOpen
@@ -33,7 +33,14 @@ orangeBathroom: Room
     a locker for toiletries.<br>"
 ;
 
-++ painkillers: Thing
-  'pills/painkillers'
-  'painkillers'
-  "A small orange bottle of pills.";
+++ toothbrush: Thing
+  'brush/toothbrush'
+  'toothbrush'
+  "A small white toothbrush. "
+;
+
+++ toothpaste: Thing
+  'paste/toothpaste'
+  'toothpaste'
+  "An empty tube of toothpaste. "
+;
