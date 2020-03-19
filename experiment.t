@@ -41,7 +41,15 @@ gameMain: GameMainDef
   ";}
 ;
 
+/*  */
+
+#include "src/actor/pc.t"
+#include "src/action/repair.t"
+
+#include "src/item/_bandage.t"
 #include "src/item/whitePanels.t"
+
+/* rooms */
 
 #include "src/room/orangeRoom.t"
 #include "src/room/orangeBathroom.t"
@@ -55,12 +63,8 @@ gameMain: GameMainDef
 
 #include "src/room/pinkRoom.t"
 #include "src/item/labCoat.t"
+#include "src/item/lockers.t"
 
 #include "src/room/redRoom.t"
 #include "src/item/dataCable.t"
 #include "src/actor/surgeryAssistant.t"
-
-#include "src/action/repair.t"
-#include "src/item/_bandage.t"
-
-#include "src/actor/pc.t"
