@@ -1,3 +1,3 @@
 Bandage: Thing
-  iobjFor(RepairWith) { verify() {} }
+  iobjFor (RepairWith) { verify () {} }
 ;

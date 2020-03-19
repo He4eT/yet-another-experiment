@@ -7,7 +7,7 @@ labCoat: Container
     you can see some sloppy cuts obviously made in a hurry.
     << labKey.location == labCoat
       ? '<br>Something heavy is hidden inside one of the pockets. '
-      : ''>>"
+      : ''>> "
 
   firstLook = nil
   initDesc = "
@@ -31,12 +31,12 @@ labCoat: Container
     name = 'lab coat';
     firstLook = true;
     initializeVocabWith('cutted lab coat');
-    "The bloody cloth turns out to be a cutted lab coat.";
+    "The bloody cloth turns out to be a cutted lab coat. ";
   }
 ;
 
 + labKey: Key, Hidden
   'long steel tubular lab key*keys'
   'tubular key'
-  "Long tubular key made of steel."
+  "Long tubular key made of steel. "
 ;

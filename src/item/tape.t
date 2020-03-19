@@ -1,11 +1,11 @@
 tapeWall: Thing, RoomPartItem
   'striped safety tape*tapes'
   'safety tape'
+  @cyanRoom
   " Many layers of strips of
     two-tone safety tape obscure the doorway.
     <br>Looks like the black and yellow wall. "
 
-  location = cyanRoom
   specialNominalRoomPartLocation = defaultWestWall
 
   isListed = nil

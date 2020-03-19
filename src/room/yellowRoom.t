@@ -23,7 +23,7 @@ yellowRoom: Room
 + orangeDoorOutside: Door, AutoClosingDoor, RoomPartItem
   -> orangeDoor
   'orange door*doors'
-  'door with <b>orange</b> triangle'
+  'orange door'
   " Sliding door with the number
     <q><<gameMain.experimentNumber>></q>
     and an orange triangle.<br>"
@@ -32,7 +32,7 @@ yellowRoom: Room
 
 + khakiDoor: IndirectLockable, Door, RoomPartItem
   'khaki door*doors'
-  'door with <b>khaki</b> triangle'
+  'khaki door'
   " Sliding door with the number
     <q><<gameMain.experimentNumber - 1>></q>
     and a khaki triangle.<br>"
@@ -42,7 +42,7 @@ yellowRoom: Room
 
 + brownDoor: IndirectLockable, Door, RoomPartItem
   'brown door*doors'
-  'door with <b>brown</b> triangle'
+  'brown door'
   " Sliding door with the number
     <q><<gameMain.experimentNumber - 2>></q>
     and a brown triangle.

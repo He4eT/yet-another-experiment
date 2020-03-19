@@ -1,7 +1,7 @@
 pinkRoom: Room
   'Changing room'
   " An elevator vestibule with a row of lockers,
-    a dumpster and posters with safety rules."
+    a dumpster and posters with safety rules. "
 
   east = cyanRoom
 ;
@@ -24,14 +24,14 @@ pinkRoom: Room
 + Decoration, RoomPartItem
   'keycard reader'
   'keycard reader'
-  "Small security device without any visible indicators."
+  "Small security device without any visible indicators. "
   specialNominalRoomPartLocation = defaultSouthWall
 ;
 
 + Decoration
   'dumpster label'
   'dumpster label'
-  "Label says <<dumpster.label>>."
+  "Label says <<dumpster.label>>. "
 ;
 
 + dumpster: OpenableContainer

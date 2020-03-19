@@ -5,7 +5,7 @@ lockers: Fixture
   " A row of service lockers with a numpad keyboard on the side.
     <br>This row, according to the signs,
     includes (from left to right) the lockers of
-    Dr. O'Neill, Alice, and Mark. "
+    <br>Dr. O'Neill, Alice Dash, and Mark Hopper. "
 ;
 
 modify VerbRule(SetTo)
@@ -27,10 +27,9 @@ modify VerbRule(SetTo)
       : '0';
   }
 
-  dobjFor(TypeLiteralOn)
-    remapTo(SetTo, self, OtherObject)
+  dobjFor (TypeLiteralOn) remapTo(SetTo, self, OtherObject)
 
-  dobjFor(SetTo) {
+  dobjFor (SetTo) {
     action () {
       inherited;
       if (curSetting == aliceLocker.code) {

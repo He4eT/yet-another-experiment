@@ -1,11 +1,10 @@
 advertisingDisplay: Decoration
   'bright lcd screen/display/monitor'
   'bright lcd display'
+  @yellowRoom
   " Huge and bright display mounted on the wall.
     <br>Images changes one by another.<.p>
     On the screen you see "
-
-  location = yellowRoom
 
   dobjFor (Examine) {
     action () {

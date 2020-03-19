@@ -6,8 +6,8 @@ VerbRule(Repair)
 ;
 
 modify Thing
-  dobjFor(Repair) {
-    verify() {
+  dobjFor (Repair) {
+    verify () {
       illogical('{You/he} do{es}n\'t know how to repair {that dobj/him}. ');
     }
   }
@@ -21,13 +21,13 @@ VerbRule(RepairWith)
 ;
 
 modify Thing
-  dobjFor(RepairWith) {
-    verify() {
+  dobjFor (RepairWith) {
+    verify () {
       illogical('{That dobj/he} {is}n\'t something {you/he} can fix. ');
     }
   }
-  iobjFor(RepairWith) {
-    verify() {
+  iobjFor (RepairWith) {
+    verify () {
       illogical('{That iobj/he} do{es}n\'t look very useful as a tool. ');
     }
   }

@@ -10,7 +10,7 @@ dataCable: PlugAttachable, Attachable, RoomPart
     return !jack.isBroken && obj == dataPort;
   }
 
-  explainCannotAttachTo(obj) {
+  explainCannotAttachTo (obj) {
     obj != dataPort
       ? "This data cable can only be connected to the data port. "
       : jack.isBroken
@@ -46,7 +46,7 @@ dataCable: PlugAttachable, Attachable, RoomPart
   dobjFor (AttachTo) remapTo(AttachTo, dataCable, IndirectObject)
 
   dobjFor (Repair) {
-    verify() {
+    verify () {
       if (jack.isBroken) {
         illogical('
           This connector can be fixed
@@ -57,7 +57,7 @@ dataCable: PlugAttachable, Attachable, RoomPart
     }
   }
   dobjFor (RepairWith) {
-    verify() {
+    verify () {
       if (!jack.isBroken) {
         illogical('The connector is already fixed. ');
       }
@@ -70,7 +70,7 @@ dataCable: PlugAttachable, Attachable, RoomPart
           for fixing the connector. ');
       }
     }
-    action() {
+    action () {
       gIobj.moveInto(nil);
       jack.isBroken = nil;
       "The connector is now ugly, but serviceable. ";

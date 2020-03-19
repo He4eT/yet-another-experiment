@@ -14,7 +14,7 @@ orangeRoom: DarkRoom
     and a desk against the east wall.
     </p>
     The bathroom is to the west,
-    the exit door leads to the south."
+    the exit door leads to the south. "
   south = orangeDoor
   west = orangeBathroom
 ;
@@ -33,7 +33,7 @@ orangeRoom: DarkRoom
 + RoomPartItem, OnOffControl, Fixture
   '(small) luminous switch/light*lights'
   'small luminous switch'
-  "It's a small luminous switch on the wall."
+  "It's a small luminous switch on the wall. "
   specialNominalRoomPartLocation = defaultSouthWall
 
   isListed = true
@@ -48,15 +48,16 @@ orangeRoom: DarkRoom
     isListed = val ? nil : true;
 
     val
-      ? "You hear slight hum of neon lamps, followed with bright light."
-      : "Darkness filled the room.";
+      ? " You hear slight hum of neon lamps,
+          followed with bright light. "
+      : " Darkness filled the room. ";
   }
 ;
 
 + Decoration
   'neon lamp*lamps'
   'neon lamps'
-  "Ordinary neon lamps emit cold light."
+  "Ordinary neon lamps emit cold light. "
 ;
 
 /* Content */
@@ -65,27 +66,27 @@ orangeRoom: DarkRoom
   'orange digits*digits/number*numbers'
   'orange number'
   " Orange, huge and neat digits
-    without additional explanation."
+    without additional explanation. "
   specialNominalRoomPartLocation = defaultNorthWall
 ;
 
 + orangeBed: Bed, Heavy
   'ascetic bed'
   'ascetic bed'
-  "It has a plastic frame and an unsprung mattress."
+  "It has a plastic frame and an unsprung mattress. "
 ;
 
 + desk: Heavy, Surface
   'white desk/table'
   'white desk'
   " This white desk has some marks on working surface
-    and a single drawer."
+    and a single drawer. "
 ;
 
   ++ Decoration
     'letters/label/mark*marks'
     'some scratched letters'
-    "You can't make out the inscription."
+    "You can't make out the inscription. "
   ;
 
   ++ drawer: Component, OpenableContainer
@@ -97,9 +98,9 @@ orangeRoom: DarkRoom
     +++ whiteCube: Thing
       'white cube'
       'white cube'
-      "Small glossy white cube.";
+      "Small glossy white cube. ";
 
     +++ blackCube: Thing
       'black cube'
       'black cube'
-      "Small glossy black cube.";
+      "Small glossy black cube. ";

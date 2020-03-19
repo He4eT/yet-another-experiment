@@ -7,6 +7,8 @@
     orangeRoom,
     orangeBathroom,
     yellowRoom,
-    cyanRoom
+    cyanRoom,
+    pinkRoom,
+    redRoom
   ]
 ;

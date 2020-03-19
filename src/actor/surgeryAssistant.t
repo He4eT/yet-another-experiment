@@ -18,8 +18,7 @@ surgeryAssistant: Person
 + Decoration
   'indicator display'
   'indicator display'
-  " You can see the message
-    <q>Connection lost</q> on the indicator display. "
+  "Small indicator display. "
 ;
 
 + Decoration
@@ -27,6 +26,8 @@ surgeryAssistant: Person
   'assistant details'
   "Parts of this mechanism look very technologically advanced. "
 ;
+
+/* Offline */
 
 + HermitActorState
   specialDesc = "
@@ -44,6 +45,8 @@ surgeryAssistant: Person
     <q>Connection lost</q> on the indicator display. "
   isInitState = true
 ;
+
+/* Online */
 
 + robotOnline: InConversationState
   specialDesc = "

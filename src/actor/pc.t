@@ -7,6 +7,6 @@ me: Actor
 + jumpsuit: Wearable
   'gray grey jumpsuit/suit'
   'gray jumpsuit'
-  "Gray jumpsuit with several pockets."
+  "Gray jumpsuit with several pockets. "
   wornBy = me
 ;
