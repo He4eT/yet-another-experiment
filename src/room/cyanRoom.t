@@ -41,5 +41,6 @@ cyanRoom: Room
     and a massive mechanical locking device with a circle keyhole.
     <br>Next to the door is a sign <q>Restricted area</q>.<br>"
   keyList = [ labKey ]
+  knownKeyList = [ labKey ]
   specialNominalRoomPartLocation = defaultEastWall
 ;
