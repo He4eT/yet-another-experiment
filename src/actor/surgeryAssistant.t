@@ -52,7 +52,7 @@ surgeryAssistant: Person
   specialDesc = "
     The surgical assistant examines the room. "
   stateDesc = "
-    <br>Cameras are scanning the room.
+    <br>Cameras are scanning the room,
     various servos, units and cables make distinctive sounds,
     the bulky arms slowly sway. "
 ;

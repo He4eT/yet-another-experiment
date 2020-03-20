@@ -1,9 +1,11 @@
 pinkRoom: Room
   'Changing room'
   " An elevator vestibule with a row of lockers,
-    a dumpster and posters with safety rules. "
+    a dumpster and posters with safety rules.
+    <br>You can see the elevator doors on the north wall. "
 
   east = cyanRoom
+  south = elevatorDoor
 ;
 
 + Decoration
@@ -19,13 +21,6 @@ pinkRoom: Room
     'Report any unsafe conditions.',
     'Always use equipment/tools/machinery safely and properly.'
   ]}
-;
-
-+ Decoration, RoomPartItem
-  'keycard reader'
-  'keycard reader'
-  "Small security device without any visible indicators. "
-  specialNominalRoomPartLocation = defaultSouthWall
 ;
 
 + Decoration

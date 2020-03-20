@@ -63,3 +63,12 @@ modify VerbRule(SetTo)
   "The sign reads <q>Alice Dash</q>.\b"
   code = '1984'
 ;
+
+++ keycard: Key
+  'key/card/keycard'
+  'keycard'
+  " It's a standard format keycard.
+    <br>On the front side is the name
+    <q>Alice Dash</q> and a barcode.
+    <br>The reverse side is empty. "
+;

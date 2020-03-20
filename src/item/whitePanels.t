@@ -9,6 +9,7 @@
     yellowRoom,
     cyanRoom,
     pinkRoom,
-    redRoom
+    redRoom,
+    blackRoom
   ]
 ;

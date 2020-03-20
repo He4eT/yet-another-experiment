@@ -64,7 +64,10 @@ gameMain: GameMainDef
 #include "src/room/pinkRoom.t"
 #include "src/item/labCoat.t"
 #include "src/item/lockers.t"
+#include "src/item/elevator.t"
 
 #include "src/room/redRoom.t"
 #include "src/item/dataCable.t"
 #include "src/actor/surgeryAssistant.t"
+
+#include "src/room/blackRoom.t"
