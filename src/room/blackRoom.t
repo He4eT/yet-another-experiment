@@ -29,7 +29,19 @@ blackRoom: Room
 ;
 
 finish: FakeConnector {
-  " This is the end.
+  " After walking a few steps,
+    you noticed that the corridor
+    began to fill with clouds of some gas
+    and your consciousness has started to leave you.\b
+    A man in the uniform of
+    a corporate security guard and
+    a gas mask came out of the darkness.\b
+    <q>It's nice to meet you here again,
+    subject number <<gameMain.experimentNumber>>...</q>\b
+    After this words you passed out.\b
 
-    <<finishGameMsg('Wasted', '')>>"
+    <<inputManager.pauseForMore(true)>>
+    <<finishGameMsg(
+      'Day #' + gameMain.dayNumber + ' is over',
+      [])>>"
 };
