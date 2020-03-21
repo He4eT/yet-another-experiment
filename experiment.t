@@ -47,7 +47,7 @@ gameMain: GameMainDef
 #include "src/action/repair.t"
 
 #include "src/item/_bandage.t"
-#include "src/item/whitePanels.t"
+#include "src/item/interior.t"
 
 /* rooms */
 
