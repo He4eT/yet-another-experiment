@@ -72,3 +72,41 @@ modify VerbRule(SetTo)
     <q>Alice Dash</q> and a barcode.
     <br>The reverse side is empty. "
 ;
+
+++ Thing
+  'memory card'
+  'memory card'
+;
+
+++ Food
+  'banana'
+  'banana'
+  " It's yellow, about six inches long, and slightly curved.
+    <br>This banana looks reasonably fresh. "
+
+  tasteDesc = "It's distinctly banana-flavoured. "
+  smellDesc = "It has a kind of faint, fruity smell. "
+  feelDesc = "The banana skin feels firm but smooth. "
+  soundDesc = "The banana is strangely silent. "
+;
+
+++ Readable
+  'paper sheet'
+  'sheet of paper'
+  "A small piece of paper with some letters on it. "
+  readDesc = "
+    Look at this, Alice!\b
+    aHR0cHM6Ly95b3V0dWJlLmNvbS93YXRjaD92PWRRdzR3OVdnWGNR\b"
+;
+
+++ Wearable
+  'socks'
+  'pair of socks'
+  "A pair of white socks. "
+
+  dobjFor (Wear) {
+    verify () {
+      illogical('Its not your size.');
+    }
+  }
+;
