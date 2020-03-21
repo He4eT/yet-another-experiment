@@ -16,7 +16,7 @@ orangeRoom: DarkRoom
     The bathroom is to the west,
     the exit door leads to the south. "
   south = orangeDoor
-  west = orangeBathroom
+  west = brightness == 3 ? orangeBathroom : nil
 ;
 
 /* Doors */

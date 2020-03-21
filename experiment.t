@@ -28,13 +28,13 @@ gameMain: GameMainDef
     experimentNumber = 10 + rand(100);
     dayNumber = rand(1000);
 
-    "<.p>
+    "\b
     <q>Experiment <<experimentNumber>>,
     day number <<dayNumber>>,</q>
-      a cold mechanical voice suddenly interrupts
-      your restless sleep.
-    <q>Have a nice day!</q>
-    <.p>";
+    a cold mechanical voice suddenly interrupts
+    your restless sleep.\b
+    <<inputManager.pauseForMore(true)>>
+    Enter <q>instruction</q> if you need a tutorial.\b";
   }
   showGoodbye () {"
     <.p>Game over<.p>
