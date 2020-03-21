@@ -2,7 +2,7 @@ pinkRoom: Room
   'Changing room'
   " An elevator vestibule with a row of lockers,
     a dumpster and posters with safety rules.
-    <br>You can see the elevator doors on the north wall. "
+    <br>You can see the elevator doors on the south wall. "
 
   east = cyanRoom
   south = elevatorDoor

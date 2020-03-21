@@ -26,10 +26,13 @@ elevatorDoor: LockableWithKey, Door
   }
 
   noteTraversal (traveler) {
-    " There is no controls inside.
+    " You enter the elevator.
+      There is no controls inside.
       <br>After you entered, the doors closed,
       and after a while the elevator
-      stopped on another floor. ";
+      stopped on another floor.\b";
+    inputManager.pauseForMore(true);
+    cls();
   }
 ;
 
