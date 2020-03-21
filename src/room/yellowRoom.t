@@ -20,6 +20,13 @@ yellowRoom: Room
 
 /* Doors */
 
++ Decoration
+  'doorway'
+  'doorway'
+  "You see a square room through the south doorway. "
+  specialNominalRoomPartLocation = defaultSouthWall
+;
+
 + orangeDoorOutside: Door, AutoClosingDoor, RoomPartItem
   -> orangeDoor
   'orange door*doors'

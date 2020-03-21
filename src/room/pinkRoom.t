@@ -2,10 +2,24 @@ pinkRoom: Room
   'Changing room'
   " An elevator vestibule with a row of lockers,
     a dumpster and posters with safety rules.
-    <br>You can see the elevator doors on the south wall. "
+    Construction dust and debris are everywhere.\b
+    You can see the corrupted doorway to the east
+    and the elevator doors on the south wall. "
 
   east = cyanRoom
   south = elevatorDoor
+;
+
++ Decoration
+  'construction dust/debris'
+  'dust'
+;
+
++ Decoration
+  'corrupted doorway'
+  'doorway'
+  "You see a square room through the corrupted doorway. "
+  specialNominalRoomPartLocation = defaultEastWall
 ;
 
 + Decoration
