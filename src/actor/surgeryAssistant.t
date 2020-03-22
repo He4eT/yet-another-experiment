@@ -48,7 +48,7 @@ surgeryAssistant: Person
 
 /* Online */
 
-+ robotOnline: InConversationState
++ robotOnline: ActorState
   specialDesc = "
     The surgical assistant examines the room. "
   stateDesc = "
