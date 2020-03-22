@@ -24,7 +24,6 @@ MultiLoc, Decoration
     orangeBathroom,
     yellowRoom,
     cyanRoom,
-    pinkRoom,
-    redRoom
+    pinkRoom
   ]
 ;
