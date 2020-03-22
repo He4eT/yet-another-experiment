@@ -24,6 +24,7 @@ gameMain: GameMainDef
   dayNumber = nil
 
   showIntro () {
+    cls();
 
     experimentNumber = 10 + rand(100);
     dayNumber = rand(1000);
