@@ -18,6 +18,13 @@ redRoom: Room
   specialNominalRoomPartLocation = defaultWestWall
 ;
 
++ Decoration
+  'light*lights/lamp*lamps/system'
+  'light system'
+  " Complex lighting system.
+    <br>Only a few lamps are lit. "
+;
+
 + Bed, Heavy
   'operating table'
   'operating table'
@@ -28,8 +35,29 @@ redRoom: Room
 ;
 
 + Decoration
-  'light*lights/lamp*lamps/system'
-  'light system'
-  " Complex lighting system.
-    <br>Only a few lamps are lit. "
+  'medical equipment/holders/manipulators'
+  'medical equipment'
+  " Auxiliary manipulators
+    and holders for medical instruments. "
+;
+
++ Heavy, Surface
+  'medical supplies desk/table'
+  'table with medical supplies'
+  " A large table with
+    two compartments
+    for storing supplies. "
+;
+
+++ Component, IndirectLockable, OpenableContainer
+  'top compartment*compartments'
+  'top compartment'
+  "A compartment for storing supplies. "
+;
+
+++ Component, IndirectLockable, OpenableContainer
+  'bottom compartment*compartments'
+  'bottom compartment'
+  " A large compartment for storing supplies.
+    <br>Marked with <q>Environmental hazard</q> sign. "
 ;
