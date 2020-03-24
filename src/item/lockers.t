@@ -35,7 +35,7 @@ modify VerbRule(SetTo)
       if (curSetting == aliceLocker.code) {
         aliceLocker.makeLocked(nil);
         aliceLocker.makeOpen(true);
-        "The middle drawer opened with a click. ";
+        "The middle locker opened with a click. ";
       } else {
         " You heard an annoying sound and
           a red light flashed on the keypad. ";

@@ -37,9 +37,9 @@ gameMain: GameMainDef
     <<inputManager.pauseForMore(true)>>
     Enter <q>instruction</q> if you need a tutorial.\b";
   }
-  showGoodbye () {"
-    <.p>Game over<.p>
-  ";}
+  showGoodbye () {
+    "\bGame over\b";
+  }
 ;
 
 /*  */

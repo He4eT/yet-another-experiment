@@ -70,37 +70,32 @@ orangeRoom: DarkRoom
   specialNominalRoomPartLocation = defaultNorthWall
 ;
 
-+ orangeBed: Bed, Heavy
++ Bed, Heavy
   'ascetic bed'
   'ascetic bed'
   "It has a plastic frame and an unsprung mattress. "
 ;
 
-+ desk: Heavy, Surface
++ Heavy, Surface
   'white desk/table'
   'white desk'
   " This white desk has some marks on working surface
     and a single drawer. "
 ;
 
-  ++ Decoration
-    'letters/label/mark*marks'
-    'some scratched letters'
-    "You can't make out the inscription. "
-  ;
+++ Decoration
+  'letters/label/mark*marks'
+  'some scratched letters'
+  "You can't make out the inscription. "
+;
 
-  ++ drawer: Component, OpenableContainer
-    'drawer'
-    'drawer'
-    "It looks like it should open easily. "
-  ;
+++ Component, OpenableContainer
+  'drawer'
+  'drawer'
+  "It looks like it should open easily. "
+;
 
-    +++ whiteCube: Thing
-      'white cube'
-      'white cube'
-      "Small glossy white cube. ";
-
-    +++ blackCube: Thing
-      'black cube'
-      'black cube'
-      "Small glossy black cube. ";
++++ Thing
+  'lighter'
+  'lighter'
+  "The lighter that ran out of fuel. ";
