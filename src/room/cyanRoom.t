@@ -33,6 +33,13 @@ cyanRoom: Room
     <br>Its purpose is unclear to you. "
 ;
 
++ Decoration
+  'corrupted doorway'
+  'doorway'
+  "The corrupted doorway. "
+  specialNominalRoomPartLocation = defaultWestWall
+;
+
 + operatingRoomDoorOutside: LockableWithKey, Door
   -> operatingRoomDoor
   'armored operating door*doors'

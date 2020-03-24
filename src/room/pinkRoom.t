@@ -1,6 +1,7 @@
 pinkRoom: Room
   'Changing room'
-  " An elevator vestibule with a row of lockers,
+  " An elevator vestibule with a row of lockers
+    connected by a common electronic locking device,
     a dumpster and posters with safety rules.
     Construction dust and debris are everywhere.\b
     You can see the corrupted doorway to the east

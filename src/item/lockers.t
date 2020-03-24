@@ -1,11 +1,12 @@
 lockers: Fixture
-  'lockers'
+  'row/lockers'
   'lockers'
   @pinkRoom
   " A row of service lockers with a numpad keyboard on the side.
     <br>This row, according to the signs,
     includes (from left to right) the lockers of
-    <br>Dr. O'Neill, Alice Dash, and Mark Hopper. "
+    <br><b>Dr. O'Neill</b>, <b>Alice Dash</b>,
+    and <b>Mark Hopper</b>.<br>"
 ;
 
 modify VerbRule(SetTo)
@@ -14,7 +15,7 @@ modify VerbRule(SetTo)
 ;
 
 + numpad: Dial, Component
-  'numpad/keyboard/keypad'
+  'electronic locking device/numpad/keyboard/keypad'
   'numpad keyboard'
   " An electronic device with a numeric keypad
     and a small 4-digit display.
