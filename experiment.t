@@ -2,19 +2,22 @@
 #include <en_us.h>
 
 versionInfo: GameID
-  name = 'Uncontrolled experiment'
+  IFID = 'F1E9FCB6-84D5-4FFA-B7E6-74458D83018B'
+  version = '0'
+
+  name = 'Yet another experiment'
+  desc = 'A simple "Escape the room" style game. '
+  showAbout () {
+    " << desc >> <br>
+      Designed as a small set of
+      useful examples for developers. ";
+  }
+
   byline = 'by He4eT'
   authorEmail = 'He4eT <He4eTHb1u@gmail.com>'
-  desc = 'A simple demo for TADS 3.'
-  version = '0'
-  IFID = 'F1E9FCB6-84D5-4FFA-B7E6-74458D83018B'
-  showCredit () {"
-    Some credits here.
-  ";}
-  showAbout () {"
-    << desc >> <br>
-    Set of usefull examples for developers.
-  ";}
+  showCredit () {
+    "Hello there!";
+  }
 ;
 
 gameMain: GameMainDef
@@ -45,6 +48,7 @@ gameMain: GameMainDef
 /*  */
 
 #include "src/actor/pc.t"
+
 #include "src/action/repair.t"
 
 #include "src/item/_bandage.t"
