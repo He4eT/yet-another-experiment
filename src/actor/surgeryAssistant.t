@@ -136,7 +136,7 @@ tCrew: Topic 'crew/team';
 tDoc: Topic 'dr dr. doc doctor o\'neill';
 ++ AskTopic [tDoc]
   " <q><b>Dr. O'Neill</b> is an experienced surgeon
-    with extensive knowledge in several areas of medicine.\b
+    with extensive knowledge in several fields of medicine.\b
     Friends with <b>Alice Dash</b>.
     <br>He's a big fan of dogs.</q>"
 ;

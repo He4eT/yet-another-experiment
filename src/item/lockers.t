@@ -96,8 +96,8 @@ modify VerbRule(SetTo)
   'sheet of paper'
   "A small piece of paper with some letters on it. "
   readDesc = "
-    Look at this, Alice!\b
-    aHR0cHM6Ly95b3V0dWJlLmNvbS93YXRjaD92PWRRdzR3OVdnWGNR\b"
+    <q>Look at this, Alice!\b
+    aHR0cHM6Ly95b3V0dWJlLmNvbS93YXRjaD92PWRRdzR3OVdnWGNR</q>"
 ;
 
 ++ Wearable
