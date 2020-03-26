@@ -27,3 +27,8 @@ MultiLoc, Decoration
     pinkRoom
   ]
 ;
+
+Decoration
+  'hidden speaker*speakers'
+  'speakers'
+;

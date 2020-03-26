@@ -49,10 +49,11 @@ gameMain: GameMainDef
 
 #include "src/actor/pc.t"
 
-#include "src/action/repair.t"
-
-#include "src/item/_bandage.t"
 #include "src/item/interior.t"
+#include "src/item/_atmosphere.t"
+
+#include "src/action/repair.t"
+#include "src/item/_bandage.t"
 
 /* rooms */
 

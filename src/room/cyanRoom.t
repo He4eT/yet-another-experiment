@@ -20,9 +20,9 @@ cyanRoom: Room
 
   north = yellowRoom
   east = operatingRoomDoorOutside
-  west: FakeConnector {"
-    Striped safety tape blocks your way.
-  "}
+  west: FakeConnector {
+    "Striped safety tape blocks your way."
+  }
 ;
 
 + Decoration
@@ -44,10 +44,16 @@ cyanRoom: Room
   -> operatingRoomDoor
   'armored operating door*doors'
   'armored door'
-  " Armored door marked <q>Operating room</q>
+  " It's an armored door marked <q>Operating room</q>
     and a massive mechanical locking device with a circle keyhole.
     <br>Next to the door is a sign <q>Restricted area</q>.<br>"
   keyList = [ labKey ]
   knownKeyList = [ labKey ]
   specialNominalRoomPartLocation = defaultEastWall
+;
+
+++ Decoration
+  'massive mechanical locking device'
+  'locking device'
+  "It's a part of an armored door. "
 ;

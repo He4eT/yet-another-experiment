@@ -54,12 +54,6 @@ orangeRoom: DarkRoom
   }
 ;
 
-+ Decoration
-  'neon lamp*lamps'
-  'neon lamps'
-  "Ordinary neon lamps emit cold light. "
-;
-
 /* Content */
 
 + RoomPartItem, Decoration
