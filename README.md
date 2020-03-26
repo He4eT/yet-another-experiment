@@ -1,7 +1,7 @@
 # Yet another experiment 
 
 A small "escape the room" style [TADS3](https://www.tads.org/) game.  
-Designed as a set of examples for developers of [interactive fiction](http://www.ifwiki.org/index.php/FAQ).
+Designed as a set of examples for developing [interactive fiction](http://www.ifwiki.org/index.php/FAQ).
 
 ![screenshot](/screenshot.png?raw=true)
 
