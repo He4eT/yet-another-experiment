@@ -32,7 +32,7 @@ the full list of "bricks" on [this page](/docs/table_of_contents.md).
   1. Clone this repo
   1. Install [frobtads](https://github.com/realnc/frobtads)
   1. Copy `frobtads/tads3/lib/` to `project_path/lib/`
-  1. Copy `frobtads/tads3/include/`to `project_path/lib/include/`
+  1. Copy `frobtads/tads3/include/` to `project_path/lib/include/`
   
 ### Build
 ```
