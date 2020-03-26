@@ -20,9 +20,40 @@ See the [full list](http://www.ifwiki.org/index.php/Interpreter).
   
 ## Development
 
-### Build
+### List of things done
+
+This project was created as a playground for learning TADS3.  
+The resulting game is a set of "bricks" for building other games,
+and you can see  
+the full list of "bricks" on [this page](/docs/table_of_contents.md).
+
+### Pre-build
+
   1. Clone this repo
   1. Install [frobtads](https://github.com/realnc/frobtads)
   1. Copy `frobtads/tads3/lib/` to `project_path/lib/`
   1. Copy `frobtads/tads3/include/`to `project_path/lib/include/`
-  1. Run `t3make -f experiment` to compile
+  
+### Build
+```
+t3make -f experiment
+```
+
+### Incremental build
+```
+watch -n 1 t3make -d -we -nobanner -f experiment
+```
+
+## Tutorials and documentation
+
+1. [Getting Started in TADS 3](https://www.tads.org/t3doc/doc/gsg/index.html)  
+Short tutorial by Eric Eve
+1. [TADS 3 Tour Guide](https://www.tads.org/t3doc/doc/tourguide/index.html)  
+Not so short tutorial by Eric Eve
+1. [Learning TADS 3](https://www.tads.org/t3doc/doc/learning/Learning%20T3.pdf)  
+Really huge PDF book by Eric Eve
+1. [TADS 3 Library Reference Manual](https://www.tads.org/t3doc/doc/libref/index.html)  
+Index of the adv3 library and core T3 system library,  
+derived directly from the source files
+  
+These and other texts can be found on the [TADS 3 Bookshelf](http://www.tads.org/t3doc/doc/index.htm).
