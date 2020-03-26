@@ -3,7 +3,7 @@
 
 versionInfo: GameID
   IFID = 'F1E9FCB6-84D5-4FFA-B7E6-74458D83018B'
-  version = '0'
+  version = '2020.03.27'
 
   name = 'Yet another experiment'
   desc = 'A simple "Escape the room" style game. '
