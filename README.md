@@ -7,7 +7,7 @@ Designed as a set of examples for developing [interactive fiction](http://www.if
 
 ## How to play
 
-1. Download the story-file on the [release page](https://github.com/He4eT/tads3_experiment/releases)
+1. Download `yet_another_experiment.t3` from the [release page](https://github.com/He4eT/tads3_experiment/releases)
 1. Install the interpreter that supports TADS adventure games (see the list below)
 
 ### List of interpreters
