@@ -1,5 +1,7 @@
 # Yet another experiment 
 
+[![IFDB](https://img.shields.io/badge/IFDB-page-lightgrey?style=flat-square)](https://ifdb.tads.org/viewgame?id=rsssdo3anjpwnt6e)
+
 A small "escape the room" style [TADS3](https://www.tads.org/) game.  
 Designed as a set of examples for developing [interactive fiction](http://www.ifwiki.org/index.php/FAQ).
 
@@ -9,6 +11,7 @@ Designed as a set of examples for developing [interactive fiction](http://www.if
 
 1. Download `yet_another_experiment.t3` from the [release page](https://github.com/He4eT/tads3_experiment/releases)
 1. Install the interpreter that supports TADS adventure games (see the list below)
+1. See this [cheat sheet](http://pr-if.org/doc/play-if-card/play-if-card-300dpi.png) if you are not familiar with interactive fiction
 
 ### List of interpreters
 
