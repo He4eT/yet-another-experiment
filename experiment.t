@@ -10,7 +10,8 @@ versionInfo: GameID
   showAbout () {
     " << desc >> <br>
       Designed as a small set of
-      useful examples for developers. ";
+      useful examples for developers.\b
+      https://github.com/He4eT/tads3_experiment/";
   }
 
   byline = 'by He4eT'
