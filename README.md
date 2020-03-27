@@ -5,7 +5,7 @@
 A small "escape the room" style [TADS3](https://www.tads.org/) game.  
 Designed as a set of examples for developing [interactive fiction](http://www.ifwiki.org/index.php/FAQ).
 
-![screenshot](/screenshot.png?raw=true)
+![screenshot](/docs/screenshot.png?raw=true)
 
 ## How to play
 
