@@ -18,10 +18,13 @@ elevatorDoor: LockableWithKey, Door
 
   dobjFor (UnlockWith) {
     action () {
-      inherited;
-      self.makeOpen(true);
-      " A few seconds later
-        the elevator arrived on the floor. ";
+      if (keyFitsLock(gIobj)) {
+        self.makeOpen(true);
+        " A few seconds later
+          the elevator arrived on the floor. ";
+      } else {
+        " You can't apply this to a card reader. ";
+      }
     }
   }
 
