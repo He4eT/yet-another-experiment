@@ -39,12 +39,12 @@ the full list of "bricks" on [this page](/docs/table_of_contents.md).
   
 ### Build
 ```
-t3make -f experiment
+t3make -f yet_another_experiment
 ```
 
 ### Incremental build
 ```
-watch -n 1 t3make -d -we -nobanner -f experiment
+watch -n 1 t3make -d -we -nobanner -f yet_another_experiment
 ```
 
 ## Tutorials and documentation
