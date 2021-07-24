@@ -9,12 +9,19 @@ Designed as a set of examples for developing [interactive fiction](http://www.if
 
 ## How to play
 
+You can 
+[play this game online](https://he4et.github.io/elseifplayer/#/play/https%3A%2F%2Fifarchive.org%2Fif-archive%2Fgames%2Ftads%2Fyet_another_experiment.t3/toxin/focus)
+or play it with any TADS3 interpreter.
+
+See this [cheat sheet](http://pr-if.org/doc/play-if-card/play-if-card-300dpi.png) if you are not familiar with interactive fiction
+
+### Play with an interpreter
+
 1. Download `yet_another_experiment.t3` from the [release page](https://github.com/He4eT/tads3_experiment/releases)
 1. Install the interpreter that supports TADS adventure games (see the list below)
-1. See this [cheat sheet](http://pr-if.org/doc/play-if-card/play-if-card-300dpi.png) if you are not familiar with interactive fiction
 
-### List of interpreters
-
+#### List of interpreters
+  - Web: [elseifplayer](https://he4et.github.io/elseifplayer/#/)
   - Desktop: [gargoyle](https://github.com/garglk/garglk/) or [frobtads](https://github.com/realnc/frobtads)
   - Android: [fabularium](https://play.google.com/store/apps/details?id=com.luxlunae.fabularium&hl=en)
   - iOS: [frotz](https://apps.apple.com/au/app/frotz/id287653015)  
