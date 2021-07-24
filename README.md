@@ -1,5 +1,6 @@
 # Yet another experiment 
 
+[![Play online](https://img.shields.io/badge/Play-online-orange?style=flat-square)](https://he4et.github.io/elseifplayer/#/play/https%3A%2F%2Fifarchive.org%2Fif-archive%2Fgames%2Ftads%2Fyet_another_experiment.t3/toxin/focus/)
 [![IFDB](https://img.shields.io/badge/IFDB-page-lightgrey?style=flat-square)](https://ifdb.tads.org/viewgame?id=rsssdo3anjpwnt6e)
 
 A small "escape the room" style [TADS3](https://www.tads.org/) game.  
@@ -10,7 +11,7 @@ Designed as a set of examples for developing [interactive fiction](http://www.if
 ## How to play
 
 You can 
-[play this game online](https://he4et.github.io/elseifplayer/#/play/https%3A%2F%2Fifarchive.org%2Fif-archive%2Fgames%2Ftads%2Fyet_another_experiment.t3/toxin/focus)
+[play this game online](https://he4et.github.io/elseifplayer/#/play/https%3A%2F%2Fifarchive.org%2Fif-archive%2Fgames%2Ftads%2Fyet_another_experiment.t3/toxin/focus/)
 or play it with any TADS3 interpreter.
 
 See this [cheat sheet](http://pr-if.org/doc/play-if-card/play-if-card-300dpi.png) if you are not familiar with interactive fiction
