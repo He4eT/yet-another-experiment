@@ -14,18 +14,18 @@ You can
 [play this game online](https://he4et.github.io/elseifplayer/#/play/https%3A%2F%2Fifarchive.org%2Fif-archive%2Fgames%2Ftads%2Fyet_another_experiment.t3/toxin/focus/)
 or play it with any TADS3 interpreter.
 
-See this [cheat sheet](http://pr-if.org/doc/play-if-card/play-if-card-300dpi.png) if you are not familiar with interactive fiction
+See this [cheat sheet](http://pr-if.org/doc/play-if-card/play-if-card-300dpi.png) if you are not familiar with interactive fiction.
 
 ### Play with an interpreter
 
-1. Download `yet_another_experiment.t3` from the [release page](https://github.com/He4eT/tads3_experiment/releases)
-1. Install the interpreter that supports TADS adventure games (see the list below)
+1. Download `yet_another_experiment.t3` from the [release page](https://github.com/He4eT/tads3_experiment/releases).
+1. Install the interpreter that supports TADS adventure games (see the list below).
 
-#### List of interpreters
-  - Web: [elseifplayer](https://he4et.github.io/elseifplayer/#/)
-  - Desktop: [gargoyle](https://github.com/garglk/garglk/) or [frobtads](https://github.com/realnc/frobtads)
-  - Android: [fabularium](https://play.google.com/store/apps/details?id=com.luxlunae.fabularium&hl=en)
-  - iOS: [frotz](https://apps.apple.com/au/app/frotz/id287653015)  
+#### List of interpreters:
+  - Web: [elseifplayer](https://he4et.github.io/elseifplayer/#/);
+  - Desktop: [gargoyle](https://github.com/garglk/garglk/) or [frobtads](https://github.com/realnc/frobtads);
+  - Android: [fabularium](https://play.google.com/store/apps/details?id=com.luxlunae.fabularium&hl=en);
+  - iOS: [frotz](https://apps.apple.com/au/app/frotz/id287653015);
 
 See the [full list](http://www.ifwiki.org/index.php/Interpreter).
   
@@ -40,10 +40,10 @@ the full list of "bricks" on [this page](/docs/table_of_contents.md).
 
 ### Pre-build
 
-  1. Clone this repo
-  1. Install [frobtads](https://github.com/realnc/frobtads)
-  1. Copy `frobtads/tads3/lib/` to `project_path/lib/`
-  1. Copy `frobtads/tads3/include/` to `project_path/lib/include/`
+  1. Clone this repo;
+  1. Install [frobtads](https://github.com/realnc/frobtads);
+  1. Copy `frobtads/tads3/lib/` to `project_path/lib/`;
+  1. Copy `frobtads/tads3/include/` to `project_path/lib/include/`;
   
 ### Build
 ```
